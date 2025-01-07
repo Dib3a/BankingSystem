@@ -14,7 +14,7 @@ class AccountTest {
 
     @org.junit.jupiter.api.Test
     void withdraw() {
-        Account account = new Account(500);
+        Account account = new Account(600);
         account.withdraw(200);
         assertEquals(300, account.checkBalance());
 
