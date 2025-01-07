@@ -22,7 +22,7 @@ class AccountTest {
 
     @org.junit.jupiter.api.Test
     void checkBalance() {
-         Account account = new Account(500);
+        Account account = new Account(500);
         assertEquals(500, account.checkBalance());
     }
 
