@@ -4,7 +4,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-         Account account1 = new Account(1000);
+        Account account1 = new Account(1000);
         Account account2 = new Account(3000);
 
 
